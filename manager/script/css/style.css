@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, serif, sans-serif;
+}
+
+.bt_cover{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.btn_1{
+    cursor: pointer;
+    display: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    height: 70px;
+    /* width: 300px; */
+    width: 50%;
+    min-width: calc(2vw * 300px);
+    max-width: calc(2vw * 800px);
+    border: none;
+    border-radius: 50px;
+    background-color: wheat;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* font-size: 1.5rem; */
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+#File_1{
+    display: none;
+}
+.Enable_Btn{
+    display: block;
+}
+
+.CF_Cover{
+    display: none;
+    align-items: center;
+    flex-direction: column;  
+}
+.CF_Cover_Enable{
+    display: flex;
+    width: 80%;
+    min-width: calc(2vw * 300px);
+    max-width: calc(2vw * 800px);
+}
+.CF_label_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Status_FileText{
+    display: none;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: bolder;
+    /* font-size: 1rem; */
+    font-size: clamp(0.5rem, 3vw, 1rem);
+}
+.Enable_Status_FileText{
+    display: block;
+}
+#Submit_btn1_1{
+    margin-top: 10px;
+}
